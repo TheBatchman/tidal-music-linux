@@ -41,6 +41,9 @@ $ sudo npm install -g electron
 # Install this app globally so you can run "tidal" from the terminal
 $ npm install -g
 
+# Change the path of the icon to your own path in tidal.desktop
+$ nano tidal.desktop
+
 # Move tidal.desktop to /usr/share/applications/tidal.desktop for menu entry
 sudo cp ./tidal.desktop /usr/share/applications/tidal.desktop
 
