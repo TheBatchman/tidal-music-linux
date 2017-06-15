@@ -8,7 +8,7 @@ var globalShortcut = electron.globalShortcut;
 var mainWindow = null;
 
 // TODO: Determine path to Pepper flash plugin, rather than hardcoding it
-var pepperFlashPluginPath = '/usr/lib/adobe-flashplugin/libpepflashplayer.so'
+var pepperFlashPluginPath = '/usr/lib/pepperflashplugin-nonfree/libpepflashplayer.so'
 app.commandLine.appendSwitch('ppapi-flash-path', pepperFlashPluginPath);
 
 // Quit when all windows are closed.
