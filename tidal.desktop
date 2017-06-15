@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Tidal
+Comment=Tidal Linux Music
+Exec=tidal
+Icon=$HOME/path/to/tidal/icon.png
+StartupNotify=false
+Categories=Network;
