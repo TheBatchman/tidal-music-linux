@@ -1,27 +1,28 @@
 {
-  "name": "Tidal Music - Linux",
+  "name": "tidal-music-linux",
   "version": "1.0.0",
   "description": "An electron wrapped client for Tidal",
   "main": "main.js",
   "scripts": {
-    "start": "electron main.js"
+    "start": "electron ."
+  },
+  "bin": {
+    "tidal": "./bin/cli.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/atom/electron-quick-start.git"
+    "url": "git+https://github.com/TheBatchman/tidal-music-linux.git"
   },
   "keywords": [
-    "Electron",
-    "quick",
-    "start",
-    "tutorial"
+    "Tidal",
+    "Music"
   ],
   "author": "GitHub",
   "license": "CC0-1.0",
   "bugs": {
-    "url": "https://github.com/atom/electron-quick-start/issues"
+    "url": "https://github.com/TheBatchman/tidal-music-linux/issues"
   },
-  "homepage": "https://github.com/atom/electron-quick-start#readme",
+  "homepage": "https://github.com/TheBatchman/tidal-music-linux#readme",
   "devDependencies": {
     "electron": "^1.0"
   }
